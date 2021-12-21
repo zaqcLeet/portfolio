@@ -1,1 +1,1 @@
-"use strict";$(document).ready((function(){$(".link").click((function(){var t=$(this).attr("href"),o=$(t).offset().top;$("body, html").animate({scrollTop:o},600)}))}));
+"use strict";$(document).ready((function(){$(".link").click((function(){var e=$(this).attr("href"),t=$(e).offset().top;$("body, html").animate({scrollTop:t},600)})),$(".burger").click((function(){$("body").toggleClass("overflow-disable"),$("section").toggleClass("disable"),$(".header__list").toggleClass("menu-enable")}))}));
